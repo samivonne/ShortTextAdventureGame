@@ -1,0 +1,167 @@
+title: Start
+tags: 
+colorID: 0
+position: -555,55
+---
+You are a CIA agent who has just been given information about a possible leader of a terrorist organization living in Manhattan. The chatter surrounding him sounds bad. The files say he has convinced groups to turn against others and has killed over 10 people himself. However, while you’re staking out the apartment that he allegedly lives in, you get a call saying the guy might not be the one they’re looking for, but it’s too risky to let him go as the terrorist leader made an anonymous tip that he was going to kill hundreds of people in two days. Do you:
+		[[a. Kill him. You could save a large population of people.|GOIN]]
+		[[b. Leave it and keep studying him and the area. You only have a day, but it might be enough time to figure out the truth.|LIBRARY]] 
+===
+title: GOIN
+tags: 
+colorID: 0
+position: -195,55
+---
+You’re walking up to the third floor of the apartment complex. The area is silent. 
+[[a. Keep going|UPSTAIRS]]
+[[b. Leave|BACKOUT]]
+===
+title: LIBRARY
+tags: 
+colorID: 0
+position: -542,461
+---
+You set up your laptop at the nearest library. As you start your research, the things you thought you knew start to become... fuzzy. You get a message from your boss
+"Have you completed your mission?"
+[[a. [LIE]|LIE]]
+[[b. [TRUTH]|TRUTH]]
+===
+title: UPSTAIRS
+tags: 
+colorID: 0
+position: 198,-246
+---
+You reach the third floor. As you’re walking towards the end of the hallway, you start to hear people talking quietly in the target apartment. You press your ear to the door, but they’re speaking a language you can’t comprehend. Do you:
+[[a. Knock on the door|KNOCKED]]
+[[b. Leave|BACKOUT]] 
+===
+title: BACKOUT
+tags: 
+colorID: 0
+position: 271,313
+---
+You’re outside of the apartment. 
+[[a. walk in|GOIN]]
+[[b. get in your car and go to the nearest library to set up camp|LIBRARY]]
+===
+title: KNOCKED
+tags: 
+colorID: 0
+position: 765,-224
+---
+You aggressively knock on the door. The conversation abruptly stops and seconds later, a baby can be heard crying from inside. The door slowly opens and you see a woman, probably in her late twenties. She keeps most of her body behind the door, but pokes her head out. She eyes you up and down.“Hello. Can I help you?”
+[[a. “Is there a male in this apartment?”|QUESTION]]
+[[b. “Wrong apartment. Sorry.”|BACKOUT]]
+===
+title: QUESTION
+tags: 
+colorID: 0
+position: 1435,-113
+---
+She squints her eyes suspiciously. “Yes. My husband. What is this about?” As you’re trying to find a cover story, a man can be seen holding a baby behind the woman’s small stature. “Hello! Come in.” The man’s voice is kind and his eyes are welcoming. Do you:
+[[a. Go in|APARTMENT]]
+[[b. Find a way to leave|BACKOUT]]
+===
+title: APARTMENT
+tags: 
+colorID: 0
+position: 1426,178
+---
+They make you some tea even though you say you’re fine. You take this time to scope out the area. The apartment is littered with toys and stuffed animals are lined along the walls. A baby gate has been placed in the entryway between the living room and the kitchen. The man places the baby in the playpen and sits next to you. “So, what can we do for you?” His smile is genuine and his accent is thick. His wife is still in the kitchen and the baby is busy playing. Do you:
+[[a. “I’m new to the apartment and I just wanted to meet my neighbors. I must really be going now, though.”|NOKILL]]
+[[b. Take your gun out and lead him outside quietly where you can discard of him.|BADENDING]]
+===
+title: NOKILL
+tags: 
+colorID: 0
+position: 1425,532
+---
+“Well it is very nice to meet you.” The man stands with you and leads you to the front door. “Don’t be a stranger!” You walk out of the apartment with a comforting feeling in your stomach. Suddenly, it sinks. You didn’t complete the mission. You didn’t kill him. As you walk out the front door and down the block, you take out your phone and call your supervisor. He answers as you get inside your car. 
+[[a. “He’s not the guy. I’m sure of it.”|GOODENDING]]
+[[b. “Send in backup to bomb the apartment. I can’t do it myself.”|BADENDING]]
+===
+title: GOODENDING
+tags: 
+colorID: 0
+position: 1145,547
+---
+You're blinded as the lights turn on in the interview room. The recruiter gets up from his chair and walks over to you, sticking out his hand. “Good job. He was innocent. Welcome to the CIA.”
+===
+title: BADENDING
+tags: 
+colorID: 0
+position: 1709,531
+---
+You're blinded as the lights turn on in the interview room. Your recruiter stands up and pulls out his notepad. “That was incorrect. He was innocent. I'm sorry, but we're going to have to reject you from the CIA.”
+===
+title: TRUTH
+tags: 
+colorID: 0
+position: -426,850
+---
+"I'm going over all the data we have on him and it's all very unclear. I don't think he is our guy, but I'll keep watching." He responds quickly with "Noted." You keep researching.
+[[a. Take a break|WALKOUT]]
+[[b. Stay in the library|STAYTILLCLOSING]]
+===
+title: LIE
+tags: 
+colorID: 0
+position: -129,551
+---
+"I'm getting my silencer ready now." You feel someone staring. You turn to see a man with sunglasses sitting two tables away from you. He looks familiar, but before you can deduce what's happening, he takes a picture of you with his phone and walks out. Two minutes later, you get a text back with an attachment. "Noted." The attachment is a photo of you sitting at the library.
+[[a. Go back to the van and do what you said you were doing|VAN]]
+[[b. Stay and research.|STAYTILLCLOSING]]
+===
+title: VAN
+tags: 
+colorID: 0
+position: 997,196
+---
+You're at your van. You attach a silencer to your gun and you place it in your holster.
+[[a. Head inside the apartment|GOIN]]
+===
+title: STAYTILLCLOSING
+tags: 
+colorID: 0
+position: 236,747
+---
+The sun starts to set. The librarian announces that the library will be closing in one hour. As you're browsing important documents for reasons to solidify your thoughts, you come across a list of possible suspects. The man who's apartment you had staked out earlier is only one of twenty suspects. Your boss told you nothing about this. Do you:
+[[a. Confront your boss with a phone call.|CONFRONT]]
+[[b. Research the other suspects and see if there's someone else who is more suspecting.|CLOSED]]
+===
+title: WALKOUT
+tags: 
+colorID: 0
+position: -833,751
+---
+You decide to take a break and walk to the nearest coffee shop. As you're walking, you realize the shop is right next to the apartment complex. You almost run into the suspect as he walks out of the main building. "So sorry! Excuse me." He walks to a minivan as a young woman follows him with a stroller. No one told you he had a family. You walk into the coffee shop and take a seat by the window where you can see the man. 
+[[a. Take a photo and send to your boss.|TALKTOBOSS]]
+[[b. Grab your coffee and head back to the library.|STAYTILLCLOSING]]
+===
+title: TALKTOBOSS
+tags: 
+colorID: 0
+position: -792,230
+---
+You snap a photo making sure to include the stroller and the woman. You send the picture with the caption "He has a family." Your boss calls you a minute later. "Do we have a problem?" His voice is gruff and low. 
+[[a. "I won't do this to a family."|GOODENDING]]
+[[b. "No sir." You head back to your van.|VAN]]
+===
+title: CONFRONT
+tags: 
+colorID: 0
+position: 743,707
+---
+Your boss picks up after the first ring. "This better be good news."
+[[a. "I'm sorry, but I won't kill someone without being 100% sure. It's not right."|GOODENDING]]
+[[b. "I won't do it.|GOODENDING]]
+===
+title: CLOSED
+tags: 
+colorID: 0
+position: 213,1037
+---
+The library is closed. You tried to talk the librarian into letting you stay, but she was not in the mood. You're outside the library when you receive a text from your boss. "How'd it go?"
+[[a. "I need more time. I don't think he's the one."|GOODENDING]] 
+[[b. "Send someone else to kill him. I want to go home."|BADENDING]]
+===
